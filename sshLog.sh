@@ -7,4 +7,4 @@ remoteUSER=hassio
 remotePATH=/home/hassio/LOGS/volumio.log
 
 ###MAIN
-ssh $remoteUSER@$remoteIP echo `date "+%d/%m/%Y %T"` $1
+ssh $remoteUSER@$remoteIP echo `date "+%d/%m/%Y %T"` $1  >> $remotePATH
